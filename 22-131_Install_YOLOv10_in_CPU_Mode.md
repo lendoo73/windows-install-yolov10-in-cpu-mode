@@ -1,4 +1,4 @@
-# [22-131. Installation: Install YOLOv10 in CPU Mode](https://icomerauk.udemy.com/course/yolo-masterclass-deep-learning-computer-vision-course/learn/lecture/45362053#overview)
+# [22-131. Installation: Install YOLOv10 in CPU Mode](https://www.udemy.com/course/yolo-masterclass-deep-learning-computer-vision-course/learn/lecture/45362053#overview)
 
 ## Installation
 
