@@ -1,0 +1,6 @@
+runs/detect/predict/road.avi filter=lfs diff=lfs merge=lfs -text
+runs/detect/predict2/road.avi filter=lfs diff=lfs merge=lfs -text
+runs/detect/predict3/road.avi filter=lfs diff=lfs merge=lfs -text
+runs/detect/predict4/0.avi filter=lfs diff=lfs merge=lfs -text
+runs/detect/predict5/road-sign.avi filter=lfs diff=lfs merge=lfs -text
+runs/detect/predict6/road-sign.avi filter=lfs diff=lfs merge=lfs -text

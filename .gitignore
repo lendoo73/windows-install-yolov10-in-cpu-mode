@@ -139,7 +139,27 @@ dmypy.json
 
 # datasets and projects
 datasets/
-runs/
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/predict/
+runs/detect/predict/*
+!runs/detect/predict/road.avi
+!runs/detect/predict2/
+runs/detect/predict2/*
+!runs/detect/predict2/road.avi
+!runs/detect/predict3/
+runs/detect/predict3/*
+!runs/detect/predict3/road.avi
+!runs/detect/predict4/
+runs/detect/predict4/*
+!runs/detect/predict4/0.avi
+!runs/detect/predict5/
+runs/detect/predict5/*
+!runs/detect/predict5/road-sign.avi
+!runs/detect/predict6/
+runs/detect/predict6/*
+!runs/detect/predict6/road-sign.avi
 wandb/
 tests/
 .DS_Store

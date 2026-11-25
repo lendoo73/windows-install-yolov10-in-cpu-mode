@@ -1,3 +1,42 @@
+# YOLOv10 CPU Mode
+
+This project is the CPU-mode setup from the YOLO Masterclass. It retains the upstream [THU-MIG YOLOv10
+implementation](https://github.com/THU-MIG/yolov10), with a Gradio demo for image and video inference.
+
+## Setup
+
+Requires Python 3.11 and Git LFS. From the project directory on Windows:
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install -e .
+```
+
+The requirements select CPU-only PyTorch wheels. To launch the demo:
+
+```powershell
+python app.py
+```
+
+Open the local URL printed by Gradio. The selected YOLOv10 checkpoint is downloaded when inference runs; model
+weights are not included in this repository. The six authorized inference videos under `runs/detect/` are tracked
+with Git LFS.
+
+## Course and licensing
+
+Course lesson: [Install YOLOv10 in CPU Mode](https://www.udemy.com/course/yolo-masterclass-deep-learning-computer-vision-course/).
+The upstream code is distributed under the [GNU Affero General Public License v3.0](LICENSE); see the upstream
+project for its authorship and citation details.
+
+---
+
+## Upstream YOLOv10 project documentation
+
+The upstream README is retained below.
+
 ## Latest Updates -- [YOLOE: Real-Time Seeing Anything](https://github.com/THU-MIG/yoloe)
 
 Please check out our new release on [**YOLOE**](https://github.com/THU-MIG/yoloe).
